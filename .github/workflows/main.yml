@@ -62,5 +62,5 @@ jobs:
       working-directory: ${{ github.workspace }}
 
     - name: Job Status
-      run: echo "Status report of this job: ${{ job.status }}." 
+      run: echo "Status report of this job ${{ job.status }}." 
       
